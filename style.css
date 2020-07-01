@@ -1,0 +1,88 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(rotmg.jpg);
+	background-size: cover;
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	border: 3px solid pink;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 3px;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	
+	box-shadow: 4px 4px 5px #888888;
+	margin: 0px;
+}
+
+p {
+	color: orange;
+	text-decoration: underline;
+	border: 3px solid white;
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+	cursor:pointer;
+	font-size: 120%;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h4 {
+	color: red;
+}
+
+h2 {
+	color: red;
+}
+
+h3 {
+	color: white;
+	cursor: pointer ;
+	display: block; 
+}
+
+header {
+	color:white;
+	cursor:pointer;
+	font-style: italic;
+	font-weight: bold;
+}
+
+li {
+	display: inline-block; 
+}
+
+section {
+	
+}
+
+.boxmodel {
+	border:5px solid red;
+	display: inline-block; 
+	padding: 20px 20px 20px 20px;
+	margin: 0 125px;
+	transition: all 1s;
+}
+ .boxmodel:hover {
+ 	transform: scale(1.2);
+ }

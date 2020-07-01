@@ -1,0 +1,16 @@
+body {
+	background-image: url(whitebag.png);
+	background-size: cover;
+}
+
+h1{
+	color:white;
+}
+
+h3 {
+	color:white;
+}
+
+form {
+	color:white;
+}
